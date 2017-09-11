@@ -20,7 +20,7 @@ class Rezi {
 
 			if(!$this->checkToken()){
 
-				$this->reziAuthenticate(); 
+				$this->reziAuthenticate();
 
 			}
 
@@ -121,7 +121,7 @@ class Rezi {
 			return false;
 		}
 
-
+  
 	}
 
 	public function checkToken(){
