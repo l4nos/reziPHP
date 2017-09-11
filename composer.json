@@ -1,0 +1,14 @@
+{
+    "name": "lanos/rezi-php",
+    "description": "A rezi PHP class",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lanos",
+            "email": "rob@synergy6.co.uk"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {}
+}
