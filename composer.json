@@ -9,6 +9,6 @@
             "email": "rob@synergy6.co.uk"
         }
     ],
-    "minimum-stability": "beta",
+    "minimum-stability": "stable",
     "require": {}
 }
