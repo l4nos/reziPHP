@@ -58,12 +58,12 @@ class Rezi {
 
 				if($this->environment === "UAT"){
 
-					return "http://core-api-uat.dezrez.com";
+					return "https://core-api-uat.dezrez.com";
 
 				}
 				else{
 
-					return "http://api.dezrez.com";
+					return "https://api.dezrez.com";
 
 				}
 
