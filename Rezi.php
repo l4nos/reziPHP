@@ -227,6 +227,17 @@ class Rezi {
 		$params['MarketingFlags'] = array("ApprovedForMarketingWebsite");
 		$params['BranchIdList'] = array();
 		$params['RoleTypes'] = array();
+		$pagenumber = 1;
+		$pageSize = 20;
+
+		// PROCESS PAGINATION
+		if($params['page']){
+			$pagenumber = $params['page'];
+		}
+
+		if($params['pageSize']){
+			$pageSize = $params['pageSize'];
+		}
 
 		if($params['type']){
 			foreach($params['type'] as $roleType){
@@ -236,7 +247,7 @@ class Rezi {
 
 		$payload = $this->processPayLoad($params);
 
-		$results = $this->getRezi("POST", 'api/simplepropertyrole/search', 20, 1, $payload);
+		$results = $this->getRezi("POST", 'api/simplepropertyrole/search', $pageSize, $pagenumber, $payload);
 
 		return ($results);
 
