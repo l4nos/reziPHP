@@ -10,5 +10,11 @@
         }
     ],
     "minimum-stability": "stable",
+    "autoload": {
+    "psr-4": {
+      "Dezrez\\": "/"
+    },
+    "files": ["src/functions.php"]
+  },
     "require": {}
 }
