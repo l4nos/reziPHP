@@ -1,5 +1,7 @@
 <?php
 
+namespace Dezrez;
+
 class Rezi {
 
 	public $environment;
